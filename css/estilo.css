@@ -25,3 +25,15 @@ h1 {
     text-transform: uppercase;
 }
 
+.hero {
+    height: 300px;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project-imageContainer {
+    widows: 500px;
+}
+
