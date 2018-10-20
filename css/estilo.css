@@ -4,6 +4,16 @@ declaraciones: todo lo que hacemos con ese selector
 propiedades: cosas propiedades
 valores: */
 
-header {
-    background: pink;
+body {
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
