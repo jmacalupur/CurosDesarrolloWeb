@@ -24,6 +24,7 @@ h1 {
     letter-spacing: -.2px;   
     text-transform: uppercase;
     color: white;
+    margin: 100px 540px 70px 30px;
 }
 
 h1 strong {
@@ -45,7 +46,8 @@ h1 strong {
     border-bottom: 10px solid pink; */
     border: 1px solid gray;
     border-radius: 10px;
-    
+    margin-bottom: 15px;
+
 }
 
 .project-details {
@@ -64,4 +66,8 @@ h1 strong {
 .header a{
     color: white;
     text-decoration: none;
+}
+
+.header ol {
+    margin: 0;
 }
