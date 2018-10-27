@@ -132,9 +132,8 @@ ul {
 
 .header ol li {
     height: inherit;
-    display: flex;
-
 }
+
 
 figure {
     margin: 0;
@@ -297,6 +296,7 @@ figure {
 
 .container {
     max-width: 1000px;
+    flex:1;
     margin:0 auto;
     display: inherit;
     justify-content: inherit;
@@ -309,10 +309,25 @@ figure {
 
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        
+@media screen and (max-width: 767px) {
+    .header {
+        display: block;
+        height: auto;
 
+    }
+    .header ol {
+        display: block;
+    }
+    .header ol li {
+        height: 50px;
+        
+    }
+    .header a {
+        justify-content: center;      
+        
+    }
+    .header .logo {
+        text-align: center;
     }
 }
 
